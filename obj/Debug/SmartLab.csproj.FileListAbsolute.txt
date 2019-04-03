@@ -111,3 +111,4 @@ F:\cxsj\SmartLab\bin\Debug\normnfc.nlp
 F:\cxsj\SmartLab\bin\Debug\normnfd.nlp
 F:\cxsj\SmartLab\bin\Debug\normnfkc.nlp
 F:\cxsj\SmartLab\bin\Debug\normnfkd.nlp
+F:\cxsj\SmartLab\bin\Debug\System.Management.dll

@@ -57,6 +57,10 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\System.Management.dll.1.0.0\lib\System.Management.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -141,6 +145,8 @@
     <Compile Include="Entity\user.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="until\getSystemInfo.cs" />
+    <Compile Include="until\SerialPortOperate.cs" />
     <EmbeddedResource Include="APP\Admin\AdminFunctionalSelection.resx">
       <DependentUpon>AdminFunctionalSelection.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,6 +182,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="APP\Font\RuiZiBiGeQingChunTiJian2-0-1.ttf" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
